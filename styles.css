@@ -1,0 +1,49 @@
+@import url('satoshi/stylesheet.css');
+
+/* html {
+  box-sizing: border-border-box;
+} */
+
+
+body {
+  background-color: #17191B;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Satoshi', sans-serif;
+  width: 100vw;
+}
+
+h1 {
+  font-size: 24px;
+  line-height: 150%;
+  padding: 0px;
+  margin: 128px 0px 0px 256px;
+  color: #fff;
+  max-width: 550px;
+  font-weight: 300;
+}
+
+ a {
+  text-decoration: none;
+  transition: color 0.3s;
+  color: #757883;
+}
+
+a:hover {
+  color: #fff;
+  transition: color 0.3s;
+}
+
+
+@media screen and (max-width: 1062px) {
+  h1{
+    margin: 96px;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  h1{
+    margin: 48px 24px;
+    max-width: 100%;
+  }
+}
